@@ -48,8 +48,20 @@ This project demonstrates a SwiftUI app that fetches and displays the most popul
 
 - Go to Product > Scheme > Edit Scheme > Test > Options and enable "Gather coverage data."
 - After running the tests, view the coverage in the Report Navigator > Coverage tab.
+  
+### Architecture
 
+This app uses the MVVM (Model-View-ViewModel) architecture:
 
+- Model: Codable structures for parsing the JSON response from the New York Times API.
+- ViewModel: The MostPopularArticlesViewModel handles data fetching, error handling, and exposing data to the view.
+- View: SwiftUI views display the fetched data and interact with the ViewModel.
+### File Structure
+- NetworkingManager.swift: Manages API requests using URLSession and async/await.
+- Endpoint.swift: Defines the API endpoint to fetch most-viewed articles.
+- MostPopularArticlesViewModel.swift: Handles business logic and data manipulation.
+- ContentView.swift: The main SwiftUI view that displays the articles.
+- NetworkingManagerTests.swift: Unit tests for the NetworkingManager and API interactions.
 
 
 
