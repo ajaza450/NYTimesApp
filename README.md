@@ -98,10 +98,10 @@ The project includes unit tests for the networking manager to ensure correct han
 
 ### Pushing Changes
 If you make modifications and want to push them to GitHub:
-      ```bash
-      git add .
-      git commit -m "Your message"
-      git push
+         ```bash
+         git add .
+         git commit -m "Your message"
+         git push
 
 ### License
 This project is licensed under the MIT License - see the LICENSE file for details.
