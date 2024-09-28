@@ -1,14 +1,12 @@
 # NYTimesApp
-# NYTimes Most Popular Articles App
-
 This project demonstrates a SwiftUI app that fetches and displays the most popular articles from the NYTimes API. The project uses modern Swift coding practices such as async/await, SwiftUI with MVVM architecture, and includes unit tests with code coverage.
 
 ## Features
-- Fetch most popular articles using the NYTimes API
-- MVVM architecture to separate concerns
-- Custom networking manager using async/await
-- Full unit test coverage for the networking layer
-- Modern Swift best practices
+- Fetches the most popular articles using the New York Times API.
+- Implements **MVVM** architecture (Model-View-ViewModel) to separate UI and business logic.
+- Networking with async/await using a generic `NetworkingManager`.
+- Unit tests for networking, error handling, and response validation.
+- Code coverage report available via Xcode.
 
 ## Getting Started
 
