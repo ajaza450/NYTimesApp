@@ -26,7 +26,9 @@ This project demonstrates a SwiftUI app that fetches and displays the most popul
 open NYTimesApp.xcodeproj
 
 3. Insert your NYTimes API Key:
+
  . Go to Endpoint.swift and replace the placeholder "YOUR_API_KEY" with your actual API key.
+
  ```bash
 return "/all-sections/7.json?api-key=YOUR_API_KEY"
 
