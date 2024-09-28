@@ -65,7 +65,7 @@ This app uses the MVVM (Model-View-ViewModel) architecture:
 - `NetworkingManagerTests.swift`: Unit tests for the NetworkingManager and API interactions.
 
 ### Example Usage
-    ```bash
+         ```bash
          @MainActor
          func fetchArticles() async {
              do {
