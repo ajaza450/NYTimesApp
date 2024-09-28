@@ -66,17 +66,16 @@ This app uses the MVVM (Model-View-ViewModel) architecture:
 
 ### Example Usage
     ```bash
-    
     @MainActor
     func fetchArticles() async {
-        do {
-            let endpoint = Endpoint.mostViewed(section: "all-sections", period: 7)
-            let articles = try await networkingManager.request(.shared, endpoint, modelType: Json4Swift_Base.self)
-            print(articles.results)
-        } catch {
-            print("Error fetching articles: \(error)")
-        }
-    }
+       do {
+             let endpoint = Endpoint.mostViewed(section: "all-sections", period: 7)
+             let articles = try await networkingManager.request(.shared, endpoint, modelType: Json4Swift_Base.self)
+             print(articles.results)
+         } catch {
+             print("Error fetching articles: \(error)")
+         }
+      }
      
 
 ### Testing
@@ -99,6 +98,14 @@ The project includes unit tests for the networking manager to ensure correct han
 
 ### Pushing Changes
 If you make modifications and want to push them to GitHub:
+      ```bash
+      git add .
+      git commit -m "Your message"
+      git push
 
+### License
+This project is licensed under the MIT License - see the LICENSE file for details.
+### Contact
+For any questions or issues, feel free to reach out to your.email@example.com.
 
 
