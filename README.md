@@ -34,20 +34,20 @@ This project demonstrates a SwiftUI app that fetches and displays the most popul
 
 4. Build and run the app:
 
-. Select the target device or simulator.
-. Press Cmd + R to build and run the application.
+- Select the target device or simulator.
+- Press Cmd + R to build and run the application.
 
 ### Running the Unit Tests
 
 1. Run the tests in Xcode:
 
-. Open the NYTimesApp project in Xcode.
-. Press Cmd + U to run all tests.
+- Open the NYTimesApp project in Xcode.
+- Press Cmd + U to run all tests.
 
 2. Check code coverage:
 
-. Go to Product > Scheme > Edit Scheme > Test > Options and enable "Gather coverage data."
-. After running the tests, view the coverage in the Report Navigator > Coverage tab.
+- Go to Product > Scheme > Edit Scheme > Test > Options and enable "Gather coverage data."
+- After running the tests, view the coverage in the Report Navigator > Coverage tab.
 
 
 
