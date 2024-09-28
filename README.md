@@ -98,10 +98,8 @@ The project includes unit tests for the networking manager to ensure correct han
 
 ### Pushing Changes
 If you make modifications and want to push them to GitHub:
-      ```bash
+         ```bash
        Cmd + U
-      
-
 ### License
 This project is licensed under the MIT License - see the LICENSE file for details.
 ### Contact
