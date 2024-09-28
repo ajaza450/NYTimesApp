@@ -94,7 +94,11 @@ To generate code coverage reports:
 - Enable code coverage from Product > Scheme > Edit Scheme > Test > Options.
 - Run the tests and check the Coverage tab under the Report Navigator.
 
+### Code Coverage
+The project includes unit tests for the networking manager to ensure correct handling of responses and errors. The tests aim to cover all critical functions.
 
+### Pushing Changes
+If you make modifications and want to push them to GitHub:
 
 
 
