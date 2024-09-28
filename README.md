@@ -96,8 +96,6 @@ To generate code coverage reports:
 ### Code Coverage
 The project includes unit tests for the networking manager to ensure correct handling of responses and errors. The tests aim to cover all critical functions.
 
-### License
-This project is licensed under the MIT License - see the LICENSE file for details.
 ### Contact
 For any questions or issues, feel free to reach out to ajaza450@gmail.com.
 
