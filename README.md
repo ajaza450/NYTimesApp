@@ -66,6 +66,7 @@ This app uses the MVVM (Model-View-ViewModel) architecture:
 
 ### Example Usage
     ```bash
+    
     @MainActor
     func fetchArticles() async {
         do {
