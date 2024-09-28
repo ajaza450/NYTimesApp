@@ -86,9 +86,9 @@ Unit tests are provided to validate the networking layer, including:
 - Error handling tests: Ensures that invalid responses and network errors are handled correctly.
 To run tests:
 
- ```bash
- Cmd + U
-
+    ```bash
+    Cmd + U
+    
 To generate code coverage reports:
 
 - Enable code coverage from Product > Scheme > Edit Scheme > Test > Options.
