@@ -80,7 +80,19 @@ This app uses the MVVM (Model-View-ViewModel) architecture:
      
 
 ### Testing
+Unit tests are provided to validate the networking layer, including:
 
+- Successful API response test: Verifies that the response is correctly parsed.
+- Error handling tests: Ensures that invalid responses and network errors are handled correctly.
+To run tests:
+
+ ```bash
+ Cmd + U
+
+To generate code coverage reports:
+
+- Enable code coverage from Product > Scheme > Edit Scheme > Test > Options.
+- Run the tests and check the Coverage tab under the Report Navigator.
 
 
 
