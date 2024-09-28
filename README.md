@@ -90,8 +90,8 @@ To run tests:
     
 To generate code coverage reports:
 
-- Enable code coverage from Product > Scheme > Edit Scheme > Test > Options.
-- Run the tests and check the Coverage tab under the Report Navigator.
+- Enable code coverage from `Product > Scheme > Edit Scheme > Test > Options`.
+- Run the tests and check the `Coverage` tab under the `Report Navigator`.
 
 ### Code Coverage
 The project includes unit tests for the networking manager to ensure correct handling of responses and errors. The tests aim to cover all critical functions.
@@ -99,6 +99,6 @@ The project includes unit tests for the networking manager to ensure correct han
 ### License
 This project is licensed under the MIT License - see the LICENSE file for details.
 ### Contact
-For any questions or issues, feel free to reach out to ajaza450@gmil.com.
+For any questions or issues, feel free to reach out to ajaza450@gmail.com.
 
 
