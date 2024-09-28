@@ -22,8 +22,8 @@ This project demonstrates a SwiftUI app that fetches and displays the most popul
    cd NYTimesApp
 
 2. Open the project in Xcode:
- ```bash
-open NYTimesApp.xcodeproj
+    ```bash
+   open NYTimesApp.xcodeproj
 
 3. Insert your NYTimes API Key:
 
