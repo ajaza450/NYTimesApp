@@ -66,16 +66,16 @@ This app uses the MVVM (Model-View-ViewModel) architecture:
 
 ### Example Usage
     ```bash
-         @MainActor
-         func fetchArticles() async {
-             do {
-                 let endpoint = Endpoint.mostViewed(section: "all-sections", period: 7)
-                 let articles = try await networkingManager.request(.shared, endpoint, modelType: Json4Swift_Base.self)
-                 print(articles.results)
-             } catch {
-                 print("Error fetching articles: \(error)")
-             }
-         }
+    @MainActor
+func fetchArticles() async {
+    do {
+        let endpoint = Endpoint.mostViewed(section: "all-sections", period: 7)
+        let articles = try await networkingManager.request(.shared, endpoint, modelType: Json4Swift_Base.self)
+        print(articles.results)
+    } catch {
+        print("Error fetching articles: \(error)")
+    }
+}     
 
 ### Testing
 
