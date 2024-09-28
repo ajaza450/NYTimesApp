@@ -99,7 +99,7 @@ The project includes unit tests for the networking manager to ensure correct han
 ### Pushing Changes
 If you make modifications and want to push them to GitHub:
       ```bash
-       git add .
+       Cmd + U
       
 
 ### License
