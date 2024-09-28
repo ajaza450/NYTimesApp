@@ -99,6 +99,6 @@ The project includes unit tests for the networking manager to ensure correct han
 ### License
 This project is licensed under the MIT License - see the LICENSE file for details.
 ### Contact
-For any questions or issues, feel free to reach out to your.email@example.com.
+For any questions or issues, feel free to reach out to ajaza450@gmil.com.
 
 
