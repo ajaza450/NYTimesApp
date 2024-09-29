@@ -23,7 +23,6 @@ class MockNetworkingManager: NetworkingManagerImpl {
     var resultState: MockResultState = .success
 
     
-    
     func request<T: Codable>(_ session: URLSession, _ endpoint: any EndPointType, modelType: T.Type) async throws -> T {
         
         switch resultState {
