@@ -9,4 +9,4 @@
 // https://help.apple.com/xcode/#/dev745c5c974
 PROTOCOL = http:/
 BASE_URL = $(PROTOCOL)/api.nytimes.com/svc
-API_KEY = O30GAEgfHYycQEA3gBRJ3qiyXnMJdgng
+API_KEY = your_api_key_here
