@@ -34,8 +34,8 @@ Open the AppConfig.xcconfig file located in the NYTimesApp project.
 Replace the API_KEY with your own API key from NYTimes Developer.
 For example:
     
-    ```bash
-    API_KEY = your_api_key_here
+   ```bash
+   API_KEY = your_api_key_here
 
 
 4. Build and run the app:
