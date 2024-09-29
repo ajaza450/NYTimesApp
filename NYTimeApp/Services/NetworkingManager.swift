@@ -20,7 +20,6 @@ final class NetworkingManager: NetworkingManagerImpl {
         guard let url = endpoint.url else{
             throw NetworkError.invalidUrl
         }
-        // trailing_closure:
         let request = buildRequest(from: url, methodType: endpoint.method)
         
         let (data, response) = try await session.data(for: request)
