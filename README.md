@@ -29,7 +29,7 @@ This project demonstrates a SwiftUI app that fetches and displays the most popul
 
  - The project uses an AppConfig.xcconfig file to manage configuration settings such as the base URL and API key. You need to add your own NYTimes API key in the AppConfig.xcconfig file.
 
- ## How to Use
+ ### How to Use
 Open the AppConfig.xcconfig file located in the NYTimesApp project.
 Replace the API_KEY with your own API key from NYTimes Developer.
 For example:
