@@ -39,16 +39,9 @@ final class NetworkingManager: NetworkingManagerImpl {
 
 private extension NetworkingManager {
     
-    
-    func buildRequest(from url: URL,
-                      methodType: HTTPMethods) -> URLRequest {
+    func buildRequest(from url: URL,methodType: HTTPMethods) -> URLRequest {
         var request = URLRequest(url: url)
-        
-        switch methodType {
-        case .get:
-            request.httpMethod = "GET"
-       
-        }
+        request.httpMethod = methodType.rawValue
         return request
     }
 }

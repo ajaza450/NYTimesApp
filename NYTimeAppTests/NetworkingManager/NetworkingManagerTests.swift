@@ -95,6 +95,30 @@ final class NetworkingManagerTests: XCTestCase {
     
     
     
+    func test_invalidStatusCodeMissingAPIKEY() async {
+        
+        let invalidStatusCode = 401
+       
+        MockURLSessionProtocol.loadingHandler = {
+            let response = HTTPURLResponse(url:self.url,
+                                           statusCode: invalidStatusCode,
+                                           httpVersion: nil,
+                                           headerFields: nil)
+            return (response!, nil)
+        }
+        
+        let endpoint = Endpoint.mostViewed(section: "all-sections", period: 7)
       
+        do {
+            _ = try await NetworkingManager.shared.request(session, endpoint, modelType: Json4Swift_Base.self)
+              } catch  {
+                  if let networkError = error as? NetworkError  {
+                      XCTAssertEqual(networkError,
+                                     NetworkError.invalidStatusCode(status: invalidStatusCode))
+                  }
+                    
+                 
+              }
+    }
    
 }

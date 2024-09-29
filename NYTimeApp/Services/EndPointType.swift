@@ -9,7 +9,7 @@ import Foundation
 
 
 enum HTTPMethods:String {
-    case get
+    case get = "GET"
 }
 
 protocol EndPointType {

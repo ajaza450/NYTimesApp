@@ -23,7 +23,11 @@ enum NetworkError: Error,LocalizedError, Equatable {
         case .invalidUrl:
             return "The URL is invalid."
         case .invalidStatusCode(let status):
-            return "The server returned an invalid status code \(status)."
+            if status == 401 {
+                return "The server returned an invalid status code \(status). Api key missing."
+            }else{
+                return "The server returned an invalid status code \(status)."
+            }
         case .invalidData:
             return "The response data is invalid."
         case .failedToDecode:

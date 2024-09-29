@@ -139,4 +139,20 @@ final class MostPopularArticlesViewModelTests: XCTestCase {
            XCTAssertTrue(vm.hasError)
     }
     
+    
+    func test_FetchArticalesFailureCase_invalidStatusCodeAPIKeyMissing() async{
+        //Give
+        let invalidStatusCode = 401
+        networkingMock.resultState = .error(.invalidStatusCode(status:invalidStatusCode))
+        
+        //When
+        await vm.fetchArtical()
+        
+        //Then
+        XCTAssertEqual(vm.articles.count, 0)
+        XCTAssertNotNil(vm.error)
+        XCTAssertEqual(vm.error?.errorDescription, "The server returned an invalid status code 401. Api key missing.")
+        
+    }
+    
 }
