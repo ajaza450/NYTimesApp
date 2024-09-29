@@ -1,0 +1,193 @@
+{
+  "status": "OK",
+  "results": [
+    {
+      "url": "https://www.nytimes.com/2024/09/20/opinion/vance-tucker-carlson-interview.html",
+      "id": 100000009703338,
+      "source": "New York Times",
+      "published_date": "2024-09-20",
+      "updated": "2024-09-21 14:07:06",
+      "section": "Opinion",
+      "byline": "By Jason Zengerle",
+      "type": "Article",
+      "title": "The Strange Afterlife of Tucker Carlson",
+      "abstract": "A year after leaving Fox News, Carlson has figured out how to exercise power and influence in less public ways.",
+      "media": [
+        {
+          "type": "image",
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/09/20/multimedia/bwvq/bwvq-thumbStandard-v2.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/09/20/multimedia/bwvq/bwvq-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/09/20/multimedia/bwvq/bwvq-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.nytimes.com/2024/09/21/us/politics/trump-investigations-enemies.html",
+      "id": 100000009655900,
+      "source": "New York Times",
+      "published_date": "2024-09-21",
+      "updated": "2024-09-22 08:38:15",
+      "section": "U.S.",
+      "byline": "By Michael S. Schmidt",
+      "type": "Article",
+      "title": "As President, Trump Demanded Investigations of Foes. He Often Got Them.",
+      "abstract": "He has threatened to target his perceived enemies if elected again. A look at his time in the White House shows how readily he could do so.",
+      "media": [
+        {
+          "type": "image",
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/09/20/multimedia/00dc-trump-retribution-01-fztb/00dc-trump-retribution-01-fztb-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/09/20/multimedia/00dc-trump-retribution-01-fztb/00dc-trump-retribution-01-fztb-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/09/20/multimedia/00dc-trump-retribution-01-fztb/00dc-trump-retribution-01-fztb-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      
+      "url": "https://www.nytimes.com/interactive/2024/09/20/upshot/flashback.html",
+      "id": 100000009710718,
+      "source": "New York Times",
+      "published_date": "2024-09-20",
+      "updated": "2024-09-23 17:54:03",
+      "section": "The Upshot",
+      "byline": "",
+      "type": "Interactive",
+      "title": "Flashback: Your Weekly History Quiz, September 21, 2024",
+      "abstract": "Can you sort 8 historical events?",
+      "media": [
+        {
+          "type": "image",
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/09/20/upshot/flashback-promo/flashback-promo-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/09/20/upshot/flashback-promo/flashback-promo-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/09/20/upshot/flashback-promo/flashback-promo-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+     
+      "url": "https://www.nytimes.com/2024/09/18/health/alcohol-cancer-young-adults.html",
+      "id": 100000009698339,
+      "source": "New York Times",
+      "published_date": "2024-09-18",
+      "updated": "2024-09-20 18:09:52",
+      "section": "Health",
+      "byline": "By Roni Caryn Rabin",
+      "type": "Article",
+      "title": "Deep Links Between Alcohol and Cancer Are Described in New Report",
+      "abstract": "Scientists continue to rethink the idea that moderate drinking offers health benefits.",
+      "media": [
+        {
+          "type": "image",
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/09/18/multimedia/18alcohol-cancer-jqbf/18alcohol-cancer-jqbf-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/09/18/multimedia/18alcohol-cancer-jqbf/18alcohol-cancer-jqbf-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/09/18/multimedia/18alcohol-cancer-jqbf/18alcohol-cancer-jqbf-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      
+      "url": "https://www.nytimes.com/2024/09/19/us/sheriff-judge-shooting-kentucky.html",
+      "id": 100000009707350,
+      "source": "New York Times",
+      "published_date": "2024-09-19",
+      "updated": "2024-09-20 16:50:39",
+      "section": "U.S.",
+      "byline": "By Emmett Lindner and Orlando Mayorquín",
+      "type": "Article",
+      "title": "Kentucky Sheriff Arrested in Shooting Death of Judge",
+      "abstract": "The police say a sheriff shot District Judge Kevin Mullins inside the courthouse on Thursday afternoon before turning himself in.",
+      "media": [
+        {
+          "type": "image",
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/10/19/multimedia/19xp-kentucky-2nd-mjhq/19xp-kentucky-2nd-mjhq-thumbStandard-v2.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/10/19/multimedia/19xp-kentucky-2nd-mjhq/19xp-kentucky-2nd-mjhq-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/10/19/multimedia/19xp-kentucky-2nd-mjhq/19xp-kentucky-2nd-mjhq-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    }
+ ]
+}
