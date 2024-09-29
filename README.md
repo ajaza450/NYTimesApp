@@ -52,7 +52,7 @@ For example:
 
 2. Check code coverage:
 
-- Go to Product > Scheme > Edit Scheme > Test > Options and enable "Gather coverage data."
+- Go to `Product > Scheme > Edit Scheme > Test > Options` and enable "Gather coverage data."
 - After running the tests, view the coverage in the Report Navigator > Coverage tab.
   
 ### Architecture
