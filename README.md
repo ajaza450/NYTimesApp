@@ -27,10 +27,18 @@ This project demonstrates a SwiftUI app that fetches and displays the most popul
 
 3. Insert your NYTimes API Key:
 
- - Go to Endpoint.swift and replace the placeholder "YOUR_API_KEY" with your actual API key.
+ - The project uses an AppConfig.xcconfig file to manage configuration settings such as the base URL and API key. You need to add your own NYTimes API key in the AppConfig.xcconfig file.
 
+ ### How to Use
+    Open the AppConfig.xcconfig file located in the NYTimesApp project.
+
+    Replace the API_KEY with your own API key from NYTimes Developer.
+
+    For example:
+    
     ```bash
-    return "/all-sections/7.json?api-key=YOUR_API_KEY"
+    API_KEY = your_api_key_here
+
 
 4. Build and run the app:
 
