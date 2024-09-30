@@ -9,4 +9,6 @@
 // https://help.apple.com/xcode/#/dev745c5c974
 PROTOCOL = http:/
 BASE_URL = $(PROTOCOL)/api.nytimes.com/svc
+
+// add here your key without "XYZ" add it XYZ way only
 API_KEY = your_api_key_here
