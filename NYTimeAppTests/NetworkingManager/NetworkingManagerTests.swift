@@ -15,6 +15,7 @@ final class NetworkingManagerTests: XCTestCase {
     
     
     override func setUp() {
+        super.setUp()
         url = URL(string: "https://api.nytimes.com")
         let configuration = URLSessionConfiguration.ephemeral
         configuration.protocolClasses = [MockURLSessionProtocol.self]
@@ -26,6 +27,8 @@ final class NetworkingManagerTests: XCTestCase {
     override func tearDown() {
         session = nil
         url = nil
+        MockURLSessionProtocol.loadingHandler = nil
+        super.tearDown()
     }
     
     
